@@ -1,4 +1,4 @@
-# Codeforces-in
+# Codeforces-in-C
 
 ### Codeforces Label A
 
