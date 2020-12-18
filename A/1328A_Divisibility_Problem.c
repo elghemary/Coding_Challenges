@@ -2,27 +2,16 @@
 
 int main()
 {
-    int t,i,compteur[10000]={0};
-    int a[10000],b[10000],c,d;
+    int t,a,b;
+
     scanf("%d",&t);
 
-    for (i=0;i<t;i++)
+    while(t!=0&&t--)
     {
-        c=a[i];
-        d=b[i];
-        
-        while(c%d!=0)
-        {
-            c+=1;
-            compteur[i]++;
-        }
-        
-        a[i]=c;
-        b[i]=d;
+        scanf("%d %d",&a,&b);
+        if(a%b!=0)
+            printf("%d\n",b-a%b);
+        else
+            printf("0\n");
     }
-
-    for (i=0;i<t;i++)
-    printf("%d\n",compteur[i]);
-    
-    return 0;
-}
+} 
