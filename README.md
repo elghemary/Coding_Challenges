@@ -8,5 +8,3 @@
 - [1328 A](https://github.com/elghemary/Coding_Challenges_Websites/blob/main/C/A/1328A_Divisibility_Problem.c) - Divisibility Problem - Accepted 
 
 # Codewars_Solutions
-Codewars katas solutions in C
-- 8kyu (https://github.com/elghemary/Codewars_Solutions/tree/main/C/8kyu)
